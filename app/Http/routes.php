@@ -19,7 +19,7 @@ Route::group(['middleware'=>['web']], function(){
         return view('welcome');
 
     });
-    //this is a test comment3
+    //this is a test comment9
     Route::get('/home', 'HomeController@index');
 
 
