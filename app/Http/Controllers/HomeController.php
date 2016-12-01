@@ -15,7 +15,7 @@ class HomeController extends Controller
      */
     public function __construct()
     {
-    	//this is a test comment2
+    	//this is a test comment5
         $this->middleware('auth');
     }
 
@@ -27,7 +27,7 @@ class HomeController extends Controller
     public function index()
     {
         $user = User::find(1);
-        //this is a test comment
+        //this is a test comment9
         return view('home');
     }
 }
