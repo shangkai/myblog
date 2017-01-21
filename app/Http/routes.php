@@ -25,7 +25,7 @@ Route::group(['middleware'=>['web']], function(){
 
 });
 
-
+//qazwsx
 Route::group(['middleware'=>['api']], function(){
 
 
